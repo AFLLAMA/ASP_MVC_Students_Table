@@ -1,0 +1,11 @@
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\bin\Debug\netcoreapp2.0\Exercise10.1.deps.json
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\bin\Debug\netcoreapp2.0\Exercise10.1.runtimeconfig.json
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\bin\Debug\netcoreapp2.0\Exercise10.1.runtimeconfig.dev.json
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\bin\Debug\netcoreapp2.0\Exercise10.1.dll
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\bin\Debug\netcoreapp2.0\Exercise10.1.pdb
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\obj\Debug\netcoreapp2.0\Exercise10.1.csprojAssemblyReference.cache
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\obj\Debug\netcoreapp2.0\Exercise10.1.csproj.CoreCompileInputs.cache
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\obj\Debug\netcoreapp2.0\Exercise10.1.AssemblyInfoInputs.cache
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\obj\Debug\netcoreapp2.0\Exercise10.1.AssemblyInfo.cs
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\obj\Debug\netcoreapp2.0\Exercise10.1.dll
+C:\Users\s17250\source\repos\Exercise10.1\Exercise10.1\obj\Debug\netcoreapp2.0\Exercise10.1.pdb

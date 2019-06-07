@@ -1,0 +1,51 @@
+﻿@model Exercise10_1.Models.Student
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IndexNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IndexNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdStudies)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdStudies)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdStudent" />
+        <input type="submit" value="Delete" class="waves-effect waves-light btn red lighten-3" /> |
+        <a asp-action="Index" class="waves-effect waves-light btn green darken-2">Back to List</a>
+    </form>
+</div>

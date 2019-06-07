@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Exercise10_1.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    
+    <a asp-action="Create" class="btn-floating btn-large waves-effect waves-light red">Create New</a>
+</p>
+<table class="highlight">
+
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IndexNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Study)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IndexNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Study.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" class="waves-effect waves-light btn red lighten-3" asp-route-id="@item.IdStudent">Edit</a> 
+                <a asp-action="Delete" class="waves-effect waves-light btn red lighten-3" asp-route-id="@item.IdStudent">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
